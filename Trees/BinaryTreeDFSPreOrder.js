@@ -81,3 +81,13 @@ class BinarySearchTree
 
 	}
 }
+
+let t = new BinarySearchTree();
+t.insert(10);
+t.insert(6);
+t.insert(15);
+t.insert(3);
+t.insert(8);
+t.insert(20);
+// 10, 6, 3, 8, 15, 20 
+console.log(t.dfsPreorderTraversal());

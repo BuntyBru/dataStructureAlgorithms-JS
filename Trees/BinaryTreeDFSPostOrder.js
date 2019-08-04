@@ -89,5 +89,5 @@ t.insert(15);
 t.insert(3);
 t.insert(8);
 t.insert(20);
-
+//3, 8, 6, 20, 15, 10 
 console.log(t.postOrder());

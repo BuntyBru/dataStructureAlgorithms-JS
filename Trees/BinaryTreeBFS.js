@@ -89,5 +89,5 @@ t.insert(15);
 t.insert(3);
 t.insert(8);
 t.insert(20);
-
+//10, 6, 15, 3, 8, 20 
 console.log(t.bfsTraversal());
