@@ -92,6 +92,7 @@ class WeightedGraph
 
 	Dijkstra(start,finish)
 	{
+		console.log(this.adjacencyList)
 		let nodes = new PriorityQueue();
 		let distances={};
 		let previous={};
@@ -138,7 +139,7 @@ class WeightedGraph
 					//calculate the new distance to neighbouring node
 					let candidate = distances[smallest] + nextNode.weight;
 					let nextNeighbour = nextNode.node;
-
+				
 					if(candidate < distances[nextNode.node])
 					{
 						//updating the new smallest distance 
